@@ -16,36 +16,25 @@
   <properties>
     <hudson.plugins.jira.JiraProjectProperty plugin="jira@3.1.1"/>
   </properties>
-  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.83">
-    <script>pipeline {
-    agent any
-    options {
-        skipStagesAfterUnstable()
-    }
-    stages {
-        stage(&apos;Build&apos;) {
-            steps {
-                echo &apos;Building&apos;
-            }
-        }
-        stage(&apos;Test&apos;) {
-            steps {
-                echo &apos;Testing&apos;
-            }
-        }
-        stage(&apos;Deploy to Staging&apos;) {
-            steps {
-                echo &apos;Deploying to Staging&apos;
-            }
-        }
-        stage(&apos;Deploy to Production&apos;) {
-            steps {
-                echo &apos;Deploying to Production&apos;
-            }
-        }
-    }
-}</script>
-    <sandbox>true</sandbox>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsScmFlowDefinition" plugin="workflow-cps@2.83">
+    <scm class="hudson.plugins.git.GitSCM" plugin="git@4.4.4">
+      <configVersion>2</configVersion>
+      <userRemoteConfigs>
+        <hudson.plugins.git.UserRemoteConfig>
+          <url>/home</url>
+        </hudson.plugins.git.UserRemoteConfig>
+      </userRemoteConfigs>
+      <branches>
+        <hudson.plugins.git.BranchSpec>
+          <name>*/master</name>
+        </hudson.plugins.git.BranchSpec>
+      </branches>
+      <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+      <submoduleCfg class="list"/>
+      <extensions/>
+    </scm>
+    <scriptPath>Jenkinsfile</scriptPath>
+    <lightweight>true</lightweight>
   </definition>
   <triggers/>
   <disabled>false</disabled>
