@@ -1,7 +1,7 @@
 pipeline {
     environment {
         registry = "dclearning/jenkins-docker-test"
-        DOCKER_PWD = credentials('docker-login-pwd')
+        DOCKER_PWD = "dhaval@941"
     }
     agent {
         docker {
