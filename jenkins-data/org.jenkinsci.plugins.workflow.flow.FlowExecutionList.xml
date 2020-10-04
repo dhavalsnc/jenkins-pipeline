@@ -2,6 +2,6 @@
 <list>
   <flow-owner plugin="workflow-job@2.40">
     <job>pipeline</job>
-    <id>8</id>
+    <id>11</id>
   </flow-owner>
 </list>
