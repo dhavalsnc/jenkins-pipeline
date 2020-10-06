@@ -17,7 +17,7 @@ pipeline {
     stages {
         stage("Build"){
             steps {
-                sh 'npm install --verbose'
+                sh 'npm install --no-save --verbose'
             }
         }
         stage("Build & Push Docker image") {
