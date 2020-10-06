@@ -1,0 +1,35 @@
++ npm install --verbose
+npm info it worked if it ends with ok
+npm verb cli [ '/usr/local/bin/node',
+npm verb cli   '/usr/local/bin/npm',
+npm verb cli   'install',
+npm verb cli   '--verbose' ]
+npm info using npm@2.15.1
+npm info using node@v0.12.15
+npm verb readDependencies loading dependencies from /var/jenkins_home/workspace/pipeline/package.json
+npm WARN package.json jenkins-pipeline@1.0.0 No description
+npm WARN package.json jenkins-pipeline@1.0.0 No repository field.
+npm WARN package.json jenkins-pipeline@1.0.0 No README data
+npm WARN package.json jenkins-pipeline@1.0.0 No license field.
+npm verb install where, deps [ '/var/jenkins_home/workspace/pipeline',
+npm verb install   [ 'express', 'jasmine' ] ]
+npm verb install where, peers [ '/var/jenkins_home/workspace/pipeline', [] ]
+npm verb installManyTop reading for lifecycle /var/jenkins_home/workspace/pipeline/package.json
+npm info preinstall jenkins-pipeline@1.0.0
+npm verb installManyTop reading scoped package data from /var/jenkins_home/workspace/pipeline/node_modules/express/package.json
+npm verb installManyTop reading scoped package data from /var/jenkins_home/workspace/pipeline/node_modules/jasmine/package.json
+npm verb readDependencies loading dependencies from /var/jenkins_home/workspace/pipeline/package.json
+npm verb targetResolver reading package data from /var/jenkins_home/workspace/pipeline/node_modules/express/package.json
+npm verb targetResolver reading package data from /var/jenkins_home/workspace/pipeline/node_modules/jasmine/package.json
+npm verb already installed skipping jasmine@^3.4.0 /var/jenkins_home/workspace/pipeline
+npm verb already installed skipping express@^4.17.1 /var/jenkins_home/workspace/pipeline
+npm info build /var/jenkins_home/workspace/pipeline
+npm info linkStuff jenkins-pipeline@1.0.0
+npm verb linkBins jenkins-pipeline@1.0.0
+npm verb linkMans jenkins-pipeline@1.0.0
+npm verb rebuildBundles jenkins-pipeline@1.0.0
+npm verb rebuildBundles [ 'express', 'jasmine' ]
+npm info install jenkins-pipeline@1.0.0
+npm info postinstall jenkins-pipeline@1.0.0
+npm info prepublish jenkins-pipeline@1.0.0
+npm verb validateInstall loading /var/jenkins_home/workspace/pipeline/package.json for validation

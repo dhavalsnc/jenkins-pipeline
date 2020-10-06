@@ -1,0 +1,13 @@
+commit 1ac6b152cff457f751662797ea50fd1e9d5f8ed0
+tree 72d78263e794bc4e1921a7ec37f637bc2982316b
+parent 55f16a27fccc464a4c3c85e6bf8f610355fc13be
+author Dhaval Chandnani <dhaval.chandnani@zeuslearning.mumbai> 2020-10-04 23:52:51 +0530
+committer Dhaval Chandnani <dhaval.chandnani@zeuslearning.mumbai> 2020-10-04 23:52:51 +0530
+
+    updated Jenkinsfile
+
+
+:100644 100644 24c8dde2d1adbaa53f23809e2296dc12d769d0a2 e6a2e18fae05f26f7d7b95a7fcc5d52680c8ecfd M	Jenkinsfile
+:100644 100644 53c1a4dab99894bde631cd579dda380fe2d7f518 8c6b4e6dde85c3941651660bbc199948ab787061 M	jenkins-data/jobs/pipeline/builds/permalinks
+:100644 100644 7f8f011eb73d6043d2e6db9d2c101195ae2801f2 45a4fb75db864000d01701c0f7a51864bd4daabf M	jenkins-data/jobs/pipeline/nextBuildNumber
+:100644 100644 efa608766daf2f40d4a3e2643956eb72dd9e8e1c 5d0bc29a394c3a595416c91fff1246af9abcd940 M	jenkins-data/logs/tasks/Periodic background build discarder.log

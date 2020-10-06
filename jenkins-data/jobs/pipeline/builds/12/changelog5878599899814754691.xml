@@ -1,0 +1,13 @@
+commit 21fc03cacdd1b3d28f012d486b8321fe26a5d3f0
+tree 229796c335a717c421e5e4b7d0d45e5651b7f6a7
+parent 52ad709df1b1cde374e3ccc6af78b4773125c76e
+author Dhaval Chandnani <dhaval.chandnani@zeuslearning.mumbai> 2020-10-05 00:09:58 +0530
+committer Dhaval Chandnani <dhaval.chandnani@zeuslearning.mumbai> 2020-10-05 00:09:58 +0530
+
+    updated Jenkinsfile
+
+
+:100644 100644 e6a2e18fae05f26f7d7b95a7fcc5d52680c8ecfd 2449334aa321689620577df1f2c891796546917e M	Jenkinsfile
+:100644 100644 8c6b4e6dde85c3941651660bbc199948ab787061 4e426650696cef2eb338b897e356978c01bc935c M	jenkins-data/jobs/pipeline/builds/permalinks
+:100644 100644 ec635144f60048986bc560c5576355344005e6e7 48082f72f087ce7e6fa75b9c41d7387daecd447b M	jenkins-data/jobs/pipeline/nextBuildNumber
+:100644 100644 13a7a6943f5766bb60e23dd38a52a59b93b4de31 186f8062c31ca8acc5da14a48554e12b9f270cd9 M	jenkins-data/org.jenkinsci.plugins.workflow.flow.FlowExecutionList.xml
